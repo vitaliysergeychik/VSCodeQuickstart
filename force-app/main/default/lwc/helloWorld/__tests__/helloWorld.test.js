@@ -19,8 +19,13 @@ describe('c-hello-world', () => {
         document.body.appendChild(element);
 
         // Assert
-        expect(2).toBe(2);
+        expect(element).toBeTruthy();
+        
         // const div = element.shadowRoot.querySelector('div');
         expect(1).toBe(1);
+
+
+        // More comments here
+        // Comments there that codescan catches?
     });
 });
