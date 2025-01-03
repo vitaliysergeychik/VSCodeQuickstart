@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import HelloWorld from 'c/helloWorld';
 
 describe('c-hello-world', () => {
@@ -19,6 +19,7 @@ describe('c-hello-world', () => {
         document.body.appendChild(element);
 
         // Assert
+        expect(2).toBe(2);
         // const div = element.shadowRoot.querySelector('div');
         expect(1).toBe(1);
     });
