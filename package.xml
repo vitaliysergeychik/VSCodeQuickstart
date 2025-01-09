@@ -11,10 +11,6 @@
         <name>AppMenu</name>
     </types>
     <types>
-        <members>default_appointment_scheduling_policy</members>
-        <name>AppointmentAssignmentPolicy</name>
-    </types>
-    <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
