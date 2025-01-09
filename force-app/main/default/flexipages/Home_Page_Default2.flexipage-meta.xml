@@ -9,12 +9,6 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>helloWorld</componentName>
-                <identifier>c_helloWorld2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
                 <componentInstanceProperties>
                     <name>enableInlineEdit</name>
                     <value>true</value>
@@ -58,6 +52,12 @@
             <componentInstance>
                 <componentName>home:recentRecordContainer</componentName>
                 <identifier>home_recentRecordContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>helloWorld</componentName>
+                <identifier>c_helloWorld2</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
