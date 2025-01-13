@@ -26,6 +26,19 @@
         <members>Task.UpdatePriority</members>
         <members>Task.UpdateStatus</members>
         <name>QuickAction</name>
+        <members>AccountController</members>
+        <members>RuleBreakingExample</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
     </types>
     <types>
         <members>Enablement_sfdcSESv60</members>
