@@ -16,7 +16,10 @@ public with sharing class ProductController {
 
     @AuraEnabled(Cacheable=true scope='global')
     public static PagedResult getProducts(Filters filters, Integer pageNumber) {
-        String whereClause = '';
+        
+        //Get Products
+
+        String key, whereClause = '';
         Decimal maxPrice;
         String[] categories, materials, levels, criteria = new List<String>{};
         if (filters != null) {
