@@ -638,6 +638,8 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>Product_Family__c-en_US</members>
+        <members>Product__c-en_US</members>
         <members>matts_test__c-en_US</members>
         <members>matts_test_object__c-en_US</members>
         <name>CustomObjectTranslation</name>
