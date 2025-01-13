@@ -7,6 +7,36 @@
                 <identifier>home_heroChart</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>ApiAnomalyEventStore</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>All</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard</identifier>
+            </componentInstance>
+        </itemInstances>
         <mode>Replace</mode>
         <name>top</name>
         <type>Region</type>
@@ -14,14 +44,27 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>home:eventContainer</componentName>
-                <identifier>home_eventContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>home:recentRecordContainer</componentName>
-                <identifier>home_recentRecordContainer</identifier>
+                <componentInstanceProperties>
+                    <name>displayNumber</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>recommendationTypes</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>users</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>groups</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Einstein Recommendations</value>
+                </componentInstanceProperties>
+                <componentName>forceChatter:recommendations</componentName>
+                <identifier>forceChatter_recommendations</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -29,16 +72,58 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <name>Facet-6d907171-c8cf-4308-8fc8-1d696389c964</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>Facet-a3e6ca5e-9d42-40ec-9cb6-c66ea76edea0</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>runtime_sales_activities:todayTaskContainer</componentName>
-                <identifier>runtime_sales_activities_todayTaskContainer</identifier>
+                <componentInstanceProperties>
+                    <name>active</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-6d907171-c8cf-4308-8fc8-1d696389c964</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.collaborate</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>home:topDealsContainer</componentName>
-                <identifier>home_topDealsContainer</identifier>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-a3e6ca5e-9d42-40ec-9cb6-c66ea76edea0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.dashboard</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-1259a321-1321-42e7-8727-3bfd1fa40108</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>Facet-1259a321-1321-42e7-8727-3bfd1fa40108</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -48,14 +133,20 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>home:assistant</componentName>
-                <identifier>home_assistant</identifier>
+                <componentName>home:topDealsContainer</componentName>
+                <identifier>home_topDealsContainer</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>helloWorld</componentName>
                 <identifier>c_helloWorld</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>home:assistant</componentName>
+                <identifier>home_assistant</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
