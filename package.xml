@@ -2,6 +2,7 @@
     <version>61.0</version>
     <types>
         <members>AccountController</members>
+        <members>DeeplyNestedIfStatement</members>
         <members>PagedResult</members>
         <members>ProductController</members>
         <members>RuleBreakingExample</members>
@@ -81,6 +82,25 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Product_Family__c.Category__c</members>
+        <members>Product_Family__c.Description__c</members>
+        <members>Product__c.Battery__c</members>
+        <members>Product__c.Category__c</members>
+        <members>Product__c.Charger__c</members>
+        <members>Product__c.Description__c</members>
+        <members>Product__c.Fork__c</members>
+        <members>Product__c.Frame_Color__c</members>
+        <members>Product__c.Front_Brakes__c</members>
+        <members>Product__c.Handlebar_Color__c</members>
+        <members>Product__c.Level__c</members>
+        <members>Product__c.MSRP__c</members>
+        <members>Product__c.Material__c</members>
+        <members>Product__c.Motor__c</members>
+        <members>Product__c.Picture_URL__c</members>
+        <members>Product__c.Product_Family__c</members>
+        <members>Product__c.Rear_Brakes__c</members>
+        <members>Product__c.Seat_Color__c</members>
+        <members>Product__c.Waterbottle_Color__c</members>
         <members>matts_test_object__c.wallet__c</members>
         <name>CustomField</name>
     </types>
@@ -89,6 +109,8 @@
         <name>CustomNotificationType</name>
     </types>
     <types>
+        <members>Product_Family__c</members>
+        <members>Product__c</members>
         <members>matts_test__c</members>
         <members>matts_test_object__c</members>
         <name>CustomObject</name>
@@ -293,6 +315,8 @@
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+        <members>Product_Family__c-Product Family Layout</members>
+        <members>Product__c-Product Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
@@ -403,6 +427,8 @@
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
         <members>Product2.AllProducts</members>
+        <members>Product_Family__c.All_Product_Families</members>
+        <members>Product__c.ProductList</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>User.ActiveUsers</members>
