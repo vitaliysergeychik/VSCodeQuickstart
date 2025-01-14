@@ -17,7 +17,7 @@ public with sharing class ProductController {
     @AuraEnabled(Cacheable=true scope='global')
     public static PagedResult getProducts(Filters filters, Integer pageNumber) {
         
-        //Get Products comment goes here
+        //Get Products comment goes here and here.
 
         String key, whereClause = '';
         Decimal maxPrice;
