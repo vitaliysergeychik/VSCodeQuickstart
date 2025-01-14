@@ -11,5 +11,6 @@ public with sharing class RuleBreakingExample {
         // key = Crypto.generateAesKey(128);
         //Blob data = Blob.valueOf('Data to be encrypted');
         //Blob encrypted = Crypto.encryptWithManagedIV('AES128', key, data);
+        //This is a comment
       }
 }
