@@ -18,8 +18,8 @@ public with sharing class ProductController {
     public static PagedResult getProducts(Filters filters, Integer pageNumber) {
         
         //Get Products comment goes here and here.
-        //Extra comment just for fun
-        
+        //Extra comment just for fun and such
+
         String key, whereClause = '';
         Decimal maxPrice;
         String[] categories, materials, levels, criteria = new List<String>{};
