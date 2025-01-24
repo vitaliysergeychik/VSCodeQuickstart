@@ -33,12 +33,6 @@
         <name>Dashboard</name>
     </types>
     <types>
-        <members>cms_document</members>
-        <members>cms_image</members>
-        <members>news</members>
-        <name>ManagedContentType</name>
-    </types>
-    <types>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -199,10 +193,6 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
-        <members>DataCloudGeoLocation</members>
-        <name>CleanDataService</name>
-    </types>
-    <types>
         <members>Program_Definition_sfdcSESv60</members>
         <members>Program_Definition_sfdcSESv61</members>
         <members>Program_Progress_sfdcSESv60</members>
@@ -259,10 +249,6 @@
         <name>Report</name>
     </types>
     <types>
-        <members>Case.ChangePriorityToHigh</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
@@ -291,10 +277,6 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
-    </types>
-    <types>
-        <members>standard case</members>
-        <name>EntitlementProcess</name>
     </types>
     <types>
         <members>CEO</members>
@@ -560,22 +542,17 @@
         <members>EntitlementType</members>
         <members>EventSubject</members>
         <members>EventType</members>
-        <members>FiscalYearPeriodName</members>
         <members>FiscalYearPeriodPrefix</members>
         <members>FiscalYearQuarterName</members>
         <members>FiscalYearQuarterPrefix</members>
         <members>FulfillmentStatus</members>
         <members>FulfillmentType</members>
-        <members>IdeaMultiCategory</members>
-        <members>IdeaStatus</members>
         <members>Industry</members>
         <members>LeadSource</members>
         <members>LeadStatus</members>
-        <members>OpportunityCompetitor</members>
         <members>OpportunityStage</members>
         <members>OpportunityType</members>
         <members>OrderStatus</members>
-        <members>OrderType</members>
         <members>PartnerRole</members>
         <members>ProcessExceptionCategory</members>
         <members>ProcessExceptionPriority</members>
@@ -592,7 +569,6 @@
         <members>ReturnOrderShipmentType</members>
         <members>ReturnOrderStatus</members>
         <members>Salutation</members>
-        <members>ServTerrMemRoleType</members>
         <members>ServiceAppointmentStatus</members>
         <members>ServiceContractApprovalStatus</members>
         <members>SolutionStatus</members>
@@ -603,8 +579,6 @@
         <members>WorkOrderLineItemStatus</members>
         <members>WorkOrderPriority</members>
         <members>WorkOrderStatus</members>
-        <members>WorkTypeDefApptType</members>
-        <members>WorkTypeGroupAddInfo</members>
         <name>StandardValueSet</name>
     </types>
     <types>

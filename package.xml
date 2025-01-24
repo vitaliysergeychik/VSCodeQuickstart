@@ -21,10 +21,6 @@
         <name>AssignmentRules</name>
     </types>
     <types>
-        <members>DataCloudGeoLocation</members>
-        <name>CleanDataService</name>
-    </types>
-    <types>
         <members>Internal Zone</members>
         <name>Community</name>
     </types>
@@ -139,10 +135,6 @@
         <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
         <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <name>EmailTemplate</name>
-    </types>
-    <types>
-        <members>standard case</members>
-        <name>EntitlementProcess</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -409,12 +401,6 @@
         <name>ListView</name>
     </types>
     <types>
-        <members>cms_document</members>
-        <members>cms_image</members>
-        <members>news</members>
-        <name>ManagedContentType</name>
-    </types>
-    <types>
         <members>Close Case</members>
         <members>Escalate Case</members>
         <members>First Response to Customer</members>
@@ -588,22 +574,17 @@
         <members>EntitlementType</members>
         <members>EventSubject</members>
         <members>EventType</members>
-        <members>FiscalYearPeriodName</members>
         <members>FiscalYearPeriodPrefix</members>
         <members>FiscalYearQuarterName</members>
         <members>FiscalYearQuarterPrefix</members>
         <members>FulfillmentStatus</members>
         <members>FulfillmentType</members>
-        <members>IdeaMultiCategory</members>
-        <members>IdeaStatus</members>
         <members>Industry</members>
         <members>LeadSource</members>
         <members>LeadStatus</members>
-        <members>OpportunityCompetitor</members>
         <members>OpportunityStage</members>
         <members>OpportunityType</members>
         <members>OrderStatus</members>
-        <members>OrderType</members>
         <members>PartnerRole</members>
         <members>ProcessExceptionCategory</members>
         <members>ProcessExceptionPriority</members>
@@ -620,7 +601,6 @@
         <members>ReturnOrderShipmentType</members>
         <members>ReturnOrderStatus</members>
         <members>Salutation</members>
-        <members>ServTerrMemRoleType</members>
         <members>ServiceAppointmentStatus</members>
         <members>ServiceContractApprovalStatus</members>
         <members>SolutionStatus</members>
@@ -631,8 +611,6 @@
         <members>WorkOrderLineItemStatus</members>
         <members>WorkOrderPriority</members>
         <members>WorkOrderStatus</members>
-        <members>WorkTypeDefApptType</members>
-        <members>WorkTypeGroupAddInfo</members>
         <name>StandardValueSet</name>
     </types>
     <types>
@@ -641,9 +619,5 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
-    </types>
-    <types>
-        <members>Case.ChangePriorityToHigh</members>
-        <name>WorkflowFieldUpdate</name>
     </types>
 </Package>
