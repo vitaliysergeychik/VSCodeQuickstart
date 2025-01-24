@@ -249,10 +249,6 @@
         <name>Report</name>
     </types>
     <types>
-        <members>Case.ChangePriorityToHigh</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
