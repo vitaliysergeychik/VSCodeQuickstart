@@ -29,7 +29,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
           organization: ‘githubrepos’
-          projectKey: ‘Evitaliysergeychik-CodeScanActions’ 
+          projectKey: ‘vitaliysergeychik-CodeScanActions’ 
           login: ${{ secrets.codescan_token }} 
           generateSarifFile: true 
           failOnRedQualityGate: true 
