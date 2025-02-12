@@ -15,6 +15,7 @@ private class AccountControllerTest {
         Test.startTest();
         List<Account> returnAccounts = AccountController.getAllInactiveAccounts();
         Test.stopTest();
+        System.debug('Test should pass');
         System.assertEquals(accountList.size(), returnAccounts.size(), 'Expected accounts size should match returned accounts size');
     }
 }
