@@ -12,7 +12,7 @@ on:
       - main
 
 jobs:
-  build: 
+  CodeScan: 
     runs-on: ubuntu-latest 
     steps: 
       - name: Checkout repository 
@@ -28,8 +28,8 @@ jobs:
         if: github.event_name == 'push' 
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
-          organization: ‘Enter organization key here’ 
-          projectKey: ‘Enter project key here’ 
+          organization: ‘githubrepos’
+          projectKey: ‘Evitaliysergeychik-CodeScanActions’ 
           login: ${{ secrets.codescan_token }} 
           generateSarifFile: true 
           failOnRedQualityGate: true 
