@@ -1,5 +1,5 @@
 public with sharing class RuleBreakingExample {
-    public void RuleBreakingExample(){
+    public Boolean RuleBreakingExample(){
         Blob hardCodedKey = Blob.valueOf('0000000000000000');
         Blob hardCodedIV = Blob.valueOf('Hardcoded IV 123');
         Blob data = Blob.valueOf('Data to be encrypted');
