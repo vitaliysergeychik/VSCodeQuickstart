@@ -201,7 +201,6 @@
         <members>CartCheckoutSession-Cart Checkout Session Layout</members>
         <members>CartDeliveryGroup-Cart Delivery Group Layout</members>
         <members>CartDeliveryGroupMethod-Cart Delivery Group Method Layout</members>
-        <members>CartItem-Cart Item Layout</members>
         <members>CartTax-Cart Tax Layout</members>
         <members>CartValidationOutput-Cart Validation Output Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -244,7 +243,6 @@
         <members>FeedItem-Feed Item Layout</members>
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
-        <members>FulfillmentOrder-Fulfillment Order Layout</members>
         <members>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</members>
         <members>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</members>
         <members>FulfillmentOrderLineItem-Fulfillment Order Product Layout</members>
@@ -279,7 +277,6 @@
         <members>PaymentGroup-Payment Group Layout</members>
         <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
         <members>Pricebook2-Price Book Layout</members>
-        <members>PricebookEntry-Price Book Entry Layout</members>
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
